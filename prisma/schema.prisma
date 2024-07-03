@@ -33,4 +33,5 @@ model User {
   createdAt DateTime  @default(now())
   updatedAt DateTime  @updatedAt
   articles  Article[]
+  admin     Boolean?  @default(false)
 }
