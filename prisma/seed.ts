@@ -17,6 +17,7 @@ async function main() {
       password: passwordSabin,
     },
     create: {
+      admin: false,
       email: 'sabin@adams.com',
       name: 'Sabin Adams',
       password: passwordSabin,
@@ -29,6 +30,7 @@ async function main() {
       password: passwordAlex,
     },
     create: {
+      admin: false,
       email: 'alex@ruheni.com',
       name: 'Alex Ruheni',
       password: passwordAlex,

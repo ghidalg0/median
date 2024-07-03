@@ -23,5 +23,8 @@ export class UserEntity implements User {
   email: string;
 
   @Exclude()
+  admin: boolean;
+
+  @Exclude()
   password: string;
 }
